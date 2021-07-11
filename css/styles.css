@@ -1,0 +1,28 @@
+body {
+    background-image: url(../images/back.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: gray;
+}
+
+.bg-color-1 {
+    background-color: #f568a3;
+}
+
+.btn-color-1 {
+    background-color: #f568a3;
+    color: white;
+    transition: all .8s ease-out;
+}
+
+.btn-color-1:hover, .btn-color-1:active {
+    background-color: #bf346e;
+    color: #59ff06;
+}
+
+.taxesTable th, .taxesTable td {
+    text-align: center;
+    width: 50%;
+}

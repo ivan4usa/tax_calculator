@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="/css/styles.css">
+        <link rel="icon" sizes="16x16" href="images/favicons/favicon-16x16.png">
+        <link rel="icon" sizes="32x32" href="images/favicons/favicon-32x32.png">
+        <link rel="icon" sizes="192x192" href="images/favicons/android-chrome-192x192.png">
+        <link rel="icon" sizes="512x512" href="images/favicons/android-chrome-512x512.png">
+        <link rel="apple-touch-icon" href="images/favicons/apple-touch-icon.png">
+        <title>Tax Calculator</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="card mx-auto mt-4 bg-light bg-gradient" style="max-width: 360px">
+                <div class="card-header bg-color-1 text-white text-center">
+                    Tax Calculator
+                </div>
+                <div id="card" class="card-body">
+                    <form class="d-flex flex-column">
+                        <input class="form-control text-center" type="text" id="gross-salary"
+                            name="gross-salary" placeholder="Gross Salary">
+                        <input class="btn btn-color-1 my-3 mx-auto w-50" type="button" value="Calculate"
+                            onclick="showTaxes();">
+                    </form>
+                </div>
+            </div>
+        </div>
+        <script src="js/calculateTaxes.js">
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+        </script>
+    </body>
+</html>
